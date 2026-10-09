@@ -1,0 +1,180 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4b1719">
+  <meta name="description" content="Explore photographs of the traditional dining room at Motte & Bailey Restaurant.">
+
+  <title>Gallery | Motte &amp; Bailey Restaurant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/pages.css">
+</head>
+
+<body>
+
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    DINING IN MOATE
+    <span class="announcement-divider">—</span>
+    <a href="tel:+353906448731">Call us: +353 90 644 8731</a>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Motte and Bailey home">
+      <span class="brand-mark">M<span>&amp;</span>B</span>
+      <span class="brand-copy">
+        <strong>Motte &amp; Bailey</strong>
+        <small>RESTAURANT · MOATE</small>
+      </span>
+    </a>
+
+```
+<button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+  <span></span>
+  <span></span>
+</button>
+
+<nav id="main-nav" class="main-nav" aria-label="Main navigation">
+  <a href="/">Home</a>
+  <a href="/about">Our story</a>
+  <a href="/menu">Menu</a>
+  <a href="/reservations">Reservations</a>
+  <a href="/gallery" aria-current="page">Gallery</a>
+  <a href="/events">Events</a>
+  <a href="/contact">Contact</a>
+  <a class="nav-cta" href="/reservations">Book a table <span>↗</span></a>
+</nav>
+```
+
+  </header>
+
+  <main>
+
+```
+<section class="page-hero">
+  <div class="page-hero-photo" style="background-image: url('/assets/restaurant-dining-room.png');"></div>
+  <div class="page-hero-shade"></div>
+
+  <div class="wrap page-hero-content">
+    <p class="eyebrow light">
+      <span></span> THE SETTING
+    </p>
+
+    <h1>A room with <em>character.</em></h1>
+
+    <p>Warm light, rich tones and a classic dining-room atmosphere.</p>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="wrap">
+
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">
+          <span></span> A CLOSER LOOK
+        </p>
+        <h2>Come on <em>in.</em></h2>
+      </div>
+
+      <p>Explore the restaurant through the photographs supplied for this website.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <button
+        class="gallery-image"
+        data-lightbox="/assets/restaurant-dining-room.png"
+        aria-label="View dining room photograph"
+      >
+        <img
+          src="/assets/restaurant-dining-room.png"
+          alt="Traditional dining room at Motte and Bailey Restaurant"
+          loading="lazy"
+        >
+        <span>THE DINING ROOM ↗</span>
+      </button>
+
+      <button
+        class="gallery-image gallery-tall"
+        data-lightbox="/assets/restaurant-dining-room.png"
+        aria-label="View expanded dining room photograph"
+      >
+        <img
+          src="/assets/restaurant-dining-room.png"
+          alt="Interior atmosphere of Motte and Bailey Restaurant"
+          loading="lazy"
+        >
+        <span>THE ATMOSPHERE ↗</span>
+      </button>
+
+    </div>
+
+    <dialog class="lightbox" id="lightbox" aria-label="Expanded gallery image">
+      <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+      <img alt="Expanded restaurant photograph">
+    </dialog>
+
+    <div class="cta-strip gallery-cta">
+      <div>
+        <p class="eyebrow">
+          <span></span> MAKE AN EVENING OF IT
+        </p>
+        <h2>See it for <em>yourself.</em></h2>
+      </div>
+
+      <a class="button button-gold" href="/reservations">Plan your visit ↗</a>
+    </div>
+
+  </div>
+</section>
+```
+
+  </main>
+
+  <footer class="site-footer">
+
+```
+<div class="wrap footer-main">
+  <a class="brand footer-brand" href="/">
+    <span class="brand-mark">M<span>&amp;</span>B</span>
+    <span class="brand-copy">
+      <strong>Motte &amp; Bailey</strong>
+      <small>RESTAURANT · MOATE</small>
+    </span>
+  </a>
+
+  <p>Good food. Good company.<br>A little timeless charm.</p>
+
+  <a class="back-top" href="/">RETURN HOME ↑</a>
+</div>
+
+<div class="wrap footer-bottom">
+  <span>© <span id="year"></span> Motte &amp; Bailey Restaurant</span>
+  <span>MOATE · COUNTY WESTMEATH · IRELAND</span>
+
+  <span class="footer-legal">
+    <a href="/privacy">Privacy</a> ·
+    <a href="/terms">Terms</a> ·
+    <a href="/admin/login">Staff</a>
+  </span>
+
+  <a href="tel:+353906448731">+353 90 644 8731</a>
+</div>
+```
+
+  </footer>
+
+  <script src="/script.js"></script>
+
+  <script src="/pages.js"></script>
+
+</body>
+</html>
