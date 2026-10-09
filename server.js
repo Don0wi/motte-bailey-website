@@ -12,6 +12,7 @@ const { randomBytes } = require('crypto');
 const nodemailer = require('nodemailer');
 
 const app = express();
+app.set('trust proxy', 1);
 const PORT = Number(process.env.PORT || 3000);
 const ROOT = __dirname;
 const DATA_DIR = path.resolve(process.env.DATA_DIR || path.join(ROOT, 'data'));
